@@ -3,7 +3,8 @@
 ---------------------
 local terminal    = "kitty"
 local browser     = "zen-browser"
-local fileManager = "dolphin"
+local fileManager = "thunar"
+
 local menu        = "hyprlauncher"
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
