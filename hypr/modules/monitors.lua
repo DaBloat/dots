@@ -13,7 +13,7 @@ hl.monitor({
     output = "HDMI-A-1",
     mode = "maxwidth",
     position = "auto",
-    scale = "1"
+    scale = "1.20"
 })
 
 hl.workspace_rule({workspace = "1", monitor = "eDP-1"})
