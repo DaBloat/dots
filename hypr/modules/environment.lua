@@ -12,7 +12,7 @@ hl.env("XDG_SESSION_DESKTOP", "Hyprland")
 hl.env("XDG_MENU_PREFIX", "arch-")
 
 -- AMD hardware acceleration
-hl.env("LIBVA_DRIVER_NAME", "radeonsi")
+-- hl.env("LIBVA_DRIVER_NAME", "radeonsi")
 
 -- NVIDIA
 hl.env("GBM_BACKEND", "nvidia-drm")
