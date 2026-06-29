@@ -8,13 +8,14 @@ local browser     = "zen-browser"
 local fileManager = "thunar"
 local menu        = "hyprlauncher"
 local editor      = "code"
-
+local steam	  = "steam"
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + C ", hl.dsp.exec_cmd(editor))
+hl.bind(mainMod .. " + G ", hl.dsp.exec_cmd(steam))
 
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
